@@ -23,7 +23,7 @@ const Table = () => {
         }
 
         fetchPrices();
-        const interval = setInterval(fetchPrices, 3000);
+        const interval = setInterval(fetchPrices, 2000);
         return () => clearInterval(interval)
     }, [])
 

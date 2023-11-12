@@ -1,0 +1,18 @@
+.navbar{
+    background:#101010; 
+    padding: .7em;   
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.p{
+    color: white;
+}
+.navbar .name{
+    color: white    ;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: left;
+    margin-left: .7em;
+}

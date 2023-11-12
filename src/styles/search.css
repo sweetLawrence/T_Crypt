@@ -1,0 +1,24 @@
+.search{
+    /* background-color: red; */
+    padding: 0 .5em .5em .5em;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+.search input{
+    margin-top: .5em;
+    outline: none;
+    padding: .8em;
+    width: 30%;
+    border-radius: 5px; 
+    border: none;
+    background: green; 
+    color: white;
+    font-weight: 640;
+    font-size: 1.2em;  
+}
+.search input::placeholder{
+    color: rgb(201, 199, 199);
+    font-weight: 100;
+    font-size: .9em; 
+}

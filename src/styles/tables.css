@@ -1,0 +1,46 @@
+.blue-div{
+    background: rgba(17, 0, 255, 0.3);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    /* z-index: 1; */
+    border-radius: 10px;
+    /* background: transparent; */
+}
+.table{
+  /* border: .5px solid white; */
+  width: 96%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 18px rgb(219, 219, 219); */
+  background: #101010;
+  /* z-index: 5; */
+  position: relative;
+}
+
+.table table{
+    /* background: red; */
+    width: 95%;
+    margin: 0 auto;
+}
+.table table th{
+    color: white;
+    padding: .6em;
+    /* background: red; */
+}
+.table table td{
+    border-bottom: 1px solid #dddddd;
+   padding: .9em .1em .9em .1em;
+   color: white;
+}
+tr {
+    transition: background-color 1s;
+  }
+  .positive-change {
+    background-color: green; 
+  }
+  td.negative-change {
+    color: red!important;
+  }
